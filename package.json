@@ -1,0 +1,26 @@
+{
+  "name": "mitch-expressapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Mitch Statz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "connect-roles": "^3.1.2",
+    "express": "^4.13.4",
+    "jugglingdb": "^2.0.0-rc2",
+    "jugglingdb-mysql": "latest",
+    "passport": "^0.3.2",
+    "passport-accesstoken": "^0.1.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  }
+}
